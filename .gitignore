@@ -1,0 +1,23 @@
+# Content files and folders #
+/content/backup-db/
+/content/backups/
+/content/blogs.dir/
+/content/cache/
+/content/upgrade/
+/content/uploads/
+/content/plugins/
+/content/plugins/hello.php
+/content/advanced-cache.php
+/content/wp-cache-config.php
+
+# Root files and folders #
+/vendor/
+/wp/
+*.log
+wp-config.php
+composer.lock
+.htaccess
+license.txt
+readme.html
+sitemap.xml
+sitemap.xml.gz
