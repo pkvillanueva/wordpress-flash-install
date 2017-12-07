@@ -1,9 +1,9 @@
 {
 	"name": "pkvillanueva/wordpress-project-boilerplate",
 	"description": "The boilerplate I use when starting a WordPress project.",
-	"homepage": "https://github.com/pkvillanueva/wordpress-project-boilerplate",
 	"type": "project",
 	"license": "MIT",
+	"homepage": "https://github.com/pkvillanueva/wordpress-project-boilerplate",
 	"authors": [
 		{
 			"email": "pkrvillanueva@gmail.com",
@@ -26,11 +26,11 @@
 		"squizlabs/php_codesniffer": "~0.14"
 	},
 	"extra": {
-		"wordpress-install-dir": "wp",
 		"installer-paths": {
 			"content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
 			"content/plugins/{$name}": ["type:wordpress-plugin"],
 			"content/themes/{$name}": ["type:wordpress-theme"]
-		}
+		},
+		"wordpress-install-dir": "wp",
 	}
 }
