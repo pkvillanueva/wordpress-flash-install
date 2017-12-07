@@ -18,15 +18,15 @@
 		}
 	],
 	"require": {
-		"php": ">=5.6",
-		"composer/installers": "~1.0",
+		"php": ">=5.6.*",
+		"composer/installers": "1.4.*",
 		"johnpbloch/wordpress": "~4.9",
-		"wpackagist-theme/twentyseventeen": "~1.4",
-		"wpackagist-plugin/akismet": "~4.0",
-		"wpackagist-plugin/hello-dolly": "~1.6"
+		"wpackagist-theme/twentyseventeen": "1.4.*",
+		"wpackagist-plugin/akismet": "4.0.*",
+		"wpackagist-plugin/hello-dolly": "1.6.*"
 	},
 	"require-dev": {
-		"squizlabs/php_codesniffer": "~0.14"
+		"wp-coding-standards/wpcs": ">=0.14"
 	},
 	"extra": {
 		"wordpress-install-dir": "wp",
