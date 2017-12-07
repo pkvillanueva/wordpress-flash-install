@@ -3,7 +3,8 @@
 /content/cache/
 /content/uploads/
 /content/upgrade/
-/content/plugins/
+/content/mu-plugins/*/
+/content/plugins/*/
 
 # Configurations
 wp-config.php
