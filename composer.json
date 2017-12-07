@@ -20,17 +20,20 @@
 	"require": {
 		"php": ">=5.6",
 		"composer/installers": "~1.0",
-		"johnpbloch/wordpress": "~4.9"
+		"johnpbloch/wordpress": "~4.9",
+		"wpackagist-theme/twentyseventeen": "~1.4",
+		"wpackagist-plugin/akismet": "~4.0",
+		"wpackagist-plugin/hello-dolly": "~1.6"
 	},
 	"require-dev": {
 		"squizlabs/php_codesniffer": "~0.14"
 	},
 	"extra": {
+		"wordpress-install-dir": "wp",
 		"installer-paths": {
 			"content/mu-plugins/{$name}": ["type:wordpress-muplugin"],
 			"content/plugins/{$name}": ["type:wordpress-plugin"],
 			"content/themes/{$name}": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "wp",
+		}
 	}
 }
