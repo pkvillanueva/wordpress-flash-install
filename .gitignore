@@ -8,6 +8,7 @@
 
 # Configurations
 wp-config.php
+.env
 
 # WordPress core
 /wp/
