@@ -15,7 +15,3 @@ wp-config.php
 # Composer
 /vendor/
 composer.lock
-
-# VVV root folders
-/log/
-/provision/
