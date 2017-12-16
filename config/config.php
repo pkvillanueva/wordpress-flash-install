@@ -5,7 +5,7 @@ $root_dir = dirname( __DIR__ );
 /** Load environment file and validate required settings. */
 $env = new Dotenv\Dotenv( $root_dir );
 $env->load();
-$env->required( array( 'WP_ENV', 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'DB_HOST' ) );
+$env->required( array( 'WP_ENV', 'WP_HOME', 'WP_SITEURL', 'DB_NAME', 'DB_USER', 'DB_PASSWORD' ) );
 
 /** Get environment setting. */
 define( 'WP_ENV', getenv( 'WP_ENV' ) ?: 'production' );
@@ -20,6 +20,10 @@ if ( file_exists( $env_path ) ) {
 /** Set core and site url. */
 define( 'WP_HOME', getenv( 'WP_HOME' ) ?: $_SERVER['HTTP_HOST'] );
 define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ?: $_SERVER['SERVER_NAME'] . '/wp' );
+
+/** Set content local path and full url.*/
+define( 'WP_CONTENT_DIR', $root_dir . '/content' );
+define( 'WP_CONTENT_URL', WP_HOME . '/content' );
 
 /** MySQL database settings. . */
 define( 'DB_NAME', getenv( 'DB_NAME' ) );
