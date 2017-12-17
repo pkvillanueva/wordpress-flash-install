@@ -33,5 +33,8 @@
       "content/plugins/{$name}": ["type:wordpress-plugin"],
       "content/themes/{$name}": ["type:wordpress-theme"]
     }
+  },
+  "scripts": {
+    "post-install-cmd": "php -r \"copy( '.env.example', '.env' );\""
   }
 }
