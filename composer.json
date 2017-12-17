@@ -35,6 +35,8 @@
     }
   },
   "scripts": {
-    "post-install-cmd": "php -r \"copy( '.env.example', '.env' );\""
+    "post-install-cmd": [
+      "php -r \"copy( '.env.example', '.env' );\""
+    ]
   }
 }
