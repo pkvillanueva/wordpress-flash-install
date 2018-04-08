@@ -1,16 +1,4 @@
 {
-  "name": "pkvillanueva/wordpress-project-boilerplate",
-  "description": "The boilerplate I use when starting a WordPress project.",
-  "type": "project",
-  "license": "MIT",
-  "homepage": "https://github.com/pkvillanueva/wordpress-project-boilerplate",
-  "authors": [
-    {
-      "email": "pkrvillanueva@gmail.com",
-      "homepage": "http://pkvillanueva.com",
-      "name": "Patrick Villanueva"
-    }
-  ],
   "repositories": [
     {
       "type": "composer",
